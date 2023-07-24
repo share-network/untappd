@@ -2,6 +2,7 @@
 	"name": "untappd",
 	"image": "mcr.microsoft.com/devcontainers/base:jammy",
 	"features": {
+		"ghcr.io/devcontainers-contrib/features/cloudflare-wrangler:1": {},
 		"ghcr.io/devcontainers/features/node:1": {
 			"nodeGypDependencies": true,
 			"version": "16"
