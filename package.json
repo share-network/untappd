@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite dev",
-    "dev:pages": "wrangler pages dev -- npm run dev",
+    "dev:pages": "wrangler pages dev --d1=DB --compatibility-date=2023-07-24 -- npm run dev",
     "build": "vite build",
     "preview": "vite preview",
     "test": "npm run test:integration && npm run test:unit",
